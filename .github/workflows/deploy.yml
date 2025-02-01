@@ -48,7 +48,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # Use your custom PAT if necessary
+          github_token: ${{ secrets.GITHUB_TOKEN_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 }}  # Use your custom PAT if necessary
           publish_dir: ./dist
           force_orphan: true  # Ensure gh-pages branch is created if it doesn't exist
 
